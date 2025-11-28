@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# El Chef Sarcástico 👨‍🍳🤬
 
-## Getting Started
+Un pequeño y divertido juego construido con React y Next.js donde tu objetivo es impresionar (o disgustar) a una IA culinaria.
 
-First, run the development server:
+## 🎮 ¿De qué trata?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+El juego consiste en elegir una combinación de ingredientes aleatorios. Una vez seleccionados, estos se envían a la API de **Gemini**, quien juzgará tu creación:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 😋 **Si consigues algo rico:** ¡Obtendrás una receta deliciosa basada en tus ingredientes!
+- 🤢 **Si es algo asqueroso:** Prepárate, porque el Chef Sarcástico te soltará un insulto por tu abominación culinaria.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologías
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend:** React 19, Next.js 16, Tailwind CSS 4
+- **Animaciones:** Framer Motion
+- **IA:** Google Gemini API
 
-## Learn More
+## 🛠️ Instalación y Uso
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clona el repositorio.
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Configura tus variables de entorno (necesitarás una API Key de Gemini).
+4. Ejecuta el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
